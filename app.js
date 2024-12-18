@@ -21,6 +21,7 @@ btn1.addEventListener("click", function () {
  else {
      tg.MainButton.setText("Вывести информацию о Амурском Тигре");
      item = "Крупная кошка с полосатым рыжим мехом,массой до 300 кг. За ночь способен преодолевать до 30 км в поисках добычи."
+     tg.MainButton.show();
  }
 });
 
